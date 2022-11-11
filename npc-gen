@@ -1,0 +1,33 @@
+# NPC Generator
+
+from os import system
+from random import randint
+
+# *** Lists ***
+
+
+
+
+
+
+# *** Main ***
+
+while True:
+	print("""
+NPC Generator - Linux Version
+	For quick npc ideas
+	
+The information about these NPCs will be exported to an gen-npc.txt file on your bc
+Press enter to start generating...\n\n """)
+
+    input()
+    
+    print("\nIs this NPC a Villain?")
+    
+    """ 
+    NPCS only need 2 or more traits to be good, so throwing questions to the user is a great way to get a good idea of what he is looking for,
+    is he looking to make the bbeg of his campaign or just a random farmer boy that the heros need to talk to find the next encounter or adventure location,
+    
+    asking and being quick will be the focus of this generator.
+    
+    """
