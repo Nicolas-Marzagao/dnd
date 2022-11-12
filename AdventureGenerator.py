@@ -154,7 +154,7 @@ The Adventure Generator
     porpose = dungeonPurpose[randint(0,7)]
     history = dungeonHistory[randint(0,10)]
     
-    adventure = adventure = "Intro: {}\n\nGoal: {}\n\nLocation: {}\n\nCreated by: {}\n\nIts porpose: {}\n\nIts history: {}\n\nClimax: {}\n".format(intro, goal, locat    ion, creator, porpose, history, climax) 
+    adventure = adventure = "Intro: {}\n\nGoal: {}\n\nLocation: {}\n\nCreated by: {}\n\nIts porpose: {}\n\nIts history: {}\n\nClimax: {}\n".format(intro, goal, location, creator, porpose, history, climax) 
     
     print(adventure)
     print("Press enter to continue")
